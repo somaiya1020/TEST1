@@ -1,0 +1,129 @@
+.container{
+    width: 1280;
+    margin: 0 auto;
+}
+.body{
+    font-family: "Epilogue", sans-serif;
+}
+/* nav start  */
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.right_nav{
+    display: flex;
+    gap: 50px;
+}
+.right_nav a{
+    text-decoration: none;
+    color: black;
+}
+/* nav end  */
+/* section1 star */
+.main_sec1{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    gap: 30px;
+}
+.left1{
+    width: 55%;
+    padding: 50px 0px;
+}
+.left1 h5{
+    font-size: 20px;
+}
+.left1 h1{
+    font-size: 80px;
+}
+.right1{
+    width: 45%;
+}
+/* section1 end  */
+/* logo section start  */
+.sec2{
+    padding:  50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+/* logo sectionn end  */
+/* section 3 star  */
+.sec3{
+    margin: 180px 125px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 125px;
+}
+/* section3 end 
+/* section4 strart  */ */
+.sec4{
+    margin: 20px 100px
+}
+.sec4 h1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.items{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr ;
+    width: 315px;
+    gap: 60px;
+    margin-left: 100px;
+}
+.items div img{
+    height: 315px;
+    width: 315px;
+}
+/* section4 end  */
+/* section5 start  */
+.sec5{
+    margin: 100px;
+}
+.sec5 h1{
+    text-align: center;
+    margin-bottom: 55px;
+
+}
+.clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 65px;
+   
+}
+.clients .div h5{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.clients .div{
+    padding: 30px;
+    background-color: rgb(243, 235, 226);
+    border: 2px solid yellow;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+/* section5 end  */
+/* section6 start  */
+.sec6{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 190px;
+}
+.div_left p{
+    margin: 50px 0;
+    margin-right: 50px;
+    
+    
+}
+.div_left .icons{
+    display: flex;
+    gap: 30px;
+}
+/* section6 end ? */
+

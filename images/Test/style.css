@@ -1,0 +1,58 @@
+.container{
+    width: 1280;
+    margin: 0 auto;
+}
+.body{
+    font-family: "Epilogue", sans-serif;
+}
+/* nav start  */
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.right_nav{
+    display: flex;
+    gap: 50px;
+}
+.right_nav a{
+    text-decoration: none;
+    color: black;
+}
+/* nav end  */
+/* section1 star */
+.main_sec1{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    gap: 30px;
+}
+.left1{
+    width: 55%;
+    padding: 50px 0px;
+}
+.left1 h5{
+    font-size: 20px;
+}
+.left1 h1{
+    font-size: 80px;
+}
+.right1{
+    width: 45%;
+}
+/* section1 end  */
+/* logo section start  */
+.sec2{
+    padding:  50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+/* logo sectionn end  */
+.sec3{
+    margin: 180px 125px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 125px;
+}
