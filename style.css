@@ -1,5 +1,5 @@
 .container{
-    width: 1280;
+    width: 1280px;
     margin: 0 auto;
 }
 .body{
@@ -115,15 +115,43 @@
     justify-content: space-between;
     gap: 190px;
 }
+.div_left{
+    width: 50%
+}
+.div_left h2{
+    font-size: 32px;
+}
 .div_left p{
-    margin: 50px 0;
-    margin-right: 50px;
-    
+    padding-top: 40px;
+    padding-bottom: 60px;
     
 }
 .div_left .icons{
     display: flex;
     gap: 30px;
+}
+.div_right{
+    width: 50%;
+}
+.item1 input{
+    height: 69px;
+    width: 530px;
+}
+.item2 input{
+    height: 69px;
+    width: 530px;
+    margin: 20px 0px;
+}
+.item3 textarea{
+    height: 231px;
+    width: 530px;
+    margin-bottom: 40px;
+}
+button{
+    padding: 27px 65px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
 }
 /* section6 end ? */
 
